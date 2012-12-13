@@ -16,13 +16,13 @@
 
 TARGET_BOOTANIMATION_NAME := vertical-480
 
-$(call inherit-product-if-exists, vendor/cm/config/common_full_phone.mk)
-$(call inherit-product-if-exists, vendor/cm/config/gsm.mk)
-$(call inherit-product, device/moto/mb526/full_jordan.mk)
+$(call inherit-product-if-exists, vendor/mokee/config/common_full_phone.mk)
+$(call inherit-product-if-exists, vendor/mokee/config/gsm.mk)
+$(call inherit-product, device/motorola/jordanplus/full_jordan.mk)
 
-DEVICE_PACKAGE_OVERLAYS += device/moto/mb526/overlay
+DEVICE_PACKAGE_OVERLAYS += device/motorola/jordanplus/overlay
 
-PRODUCT_NAME := cm_mb526
+PRODUCT_NAME := mokee_jordanplus
 PRODUCT_BRAND := MOTO
 PRODUCT_DEVICE := mb526
 PRODUCT_MODEL := MB526

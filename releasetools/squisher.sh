@@ -2,9 +2,9 @@
 # It is the final build step (after OTA package)
 
 # set in squisher
-# DEVICE_OUT=$ANDROID_BUILD_TOP/out/target/product/mb526
-# DEVICE_TOP=$ANDROID_BUILD_TOP/device/moto/mb526
-# VENDOR_TOP=$ANDROID_BUILD_TOP/vendor/motorola/jordan_plus
+# DEVICE_OUT=$ANDROID_BUILD_TOP/out/target/product/jordanplus
+# DEVICE_TOP=$ANDROID_BUILD_TOP/device/motorola/jordanplus
+# VENDOR_TOP=$ANDROID_BUILD_TOP/vendor/motorola/jordanplus
 
 # Delete unwanted files
 rm -f $REPACK/ota/system/app/RomManager.apk
