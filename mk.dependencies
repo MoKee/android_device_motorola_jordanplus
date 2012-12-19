@@ -1,0 +1,8 @@
+[
+ {
+   "repository": "android_kernel_motorola_jordan",
+   "target_path": "kernel/motorola/jordan",
+   "branch": "jb_mkt"
+ }
+]
+
