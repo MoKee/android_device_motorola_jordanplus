@@ -1,0 +1,28 @@
+[
+  {
+    "repository": "github/royale1223/HwaSettings",
+    "target_path": "packages/apps/HwaSettings",
+    "branch": "master"
+  },
+  {
+    "repository": "github/maniac103/android_packages_apps_MotoFMService",
+    "target_path": "packages/apps/MotoFMService",
+    "branch": "gingerbread"
+  },
+  {
+    "repository": "github/CyanogenDefy/android_packages_apps_Usb",
+    "target_path": "packages/apps/Usb",
+    "branch": "ics"
+  },
+  {
+    "repository": "github/Quarx2k/android_external_bootmenu",
+    "target_path": "external/bootmenu",
+    "branch": "jellybean"
+  },
+  {
+    "repository": "github/Quarx2k/jordan-kernel",
+    "target_path": "kernel/motorola/jordan",
+    "branch": "jb_clean-2.6.32-9"
+  }
+]
+
