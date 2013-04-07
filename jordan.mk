@@ -17,11 +17,11 @@
 #
 # This is the product configuration for a generic Motorola Defy (jordan)
 #
-device_path = device/moto/mb526
+device_path = device/motorola/jordanplus
 
 # The gps config appropriate for this device
 $(call inherit-product, device/common/gps/gps_eu_supl.mk)
-$(call inherit-product, device/moto/jordan-common/device.mk)
+$(call inherit-product, device/motorola/jordan-common/device.mk)
 
 ## (3)  Finally, the least specific parts, i.e. the non-GSM-specific aspects
 PRODUCT_PROPERTY_OVERRIDES += \

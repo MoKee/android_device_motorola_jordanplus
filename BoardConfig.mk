@@ -29,5 +29,5 @@ BOARD_DEFY_MODEL := DEFY_PLUS
 TARGET_USE_JORDAN_COMMON := true
 
 # Use the part that is common between all allwinner
-include device/moto/jordan-common/BoardConfig.mk
+include device/motorola/jordan-common/BoardConfig.mk
 
