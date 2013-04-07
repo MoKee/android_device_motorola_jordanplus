@@ -22,9 +22,9 @@ $(call inherit-product, device/motorola/jordanplus/full_jordan.mk)
 
 DEVICE_PACKAGE_OVERLAYS += device/motorola/jordanplus/overlay
 
-PRODUCT_NAME := mk_mb526
+PRODUCT_NAME := mk_jordanplus
 PRODUCT_BRAND := MOTO
-PRODUCT_DEVICE := mb526
+PRODUCT_DEVICE := jordanplus
 PRODUCT_MODEL := MB526
 PRODUCT_MANUFACTURER := Motorola
 PRODUCT_SFX := DFP
