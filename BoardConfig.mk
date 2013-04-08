@@ -31,3 +31,6 @@ TARGET_USE_JORDAN_COMMON := true
 # Use the part that is common between all allwinner
 include device/motorola/jordan-common/BoardConfig.mk
 
+ifdef MK_RELEASE
+WITH_DEXPREOPT := true
+endif
