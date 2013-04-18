@@ -20,6 +20,6 @@
 # In particular, you can add lunch options with the add_lunch_combo
 # function: add_lunch_combo generic-eng
 
-#dd_lunch_combo full_mb526-eng
-#add_lunch_combo cm_mb526-userdebug
+#dd_lunch_combo full_jordanplus-eng
+#add_lunch_combo mk_jordanplus-userdebug
 
