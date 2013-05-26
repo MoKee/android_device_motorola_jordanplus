@@ -10,11 +10,6 @@
     "branch": "gingerbread"
   },
   {
-    "repository": "github/CyanogenDefy/android_packages_apps_Usb",
-    "target_path": "packages/apps/Usb",
-    "branch": "ics"
-  },
-  {
     "repository": "github/Quarx2k/android_external_bootmenu",
     "target_path": "external/bootmenu",
     "branch": "jellybean"
