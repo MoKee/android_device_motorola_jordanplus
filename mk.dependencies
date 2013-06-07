@@ -1,23 +1,32 @@
 [
   {
-    "repository": "github/royale1223/HwaSettings",
+    "repository": "CyanogenDefy/android_packages_apps_Usb",
+    "target_path": "packages/apps/Usb",
+    "branch": "ics",
+    "remote": "local"
+  },
+  {
+    "repository": "royale1223/HwaSettings",
     "target_path": "packages/apps/HwaSettings",
-    "branch": "master"
+    "branch": "master",
+    "remote": "local"
   },
   {
-    "repository": "github/maniac103/android_packages_apps_MotoFMService",
+    "repository": "maniac103/android_packages_apps_MotoFMService",
     "target_path": "packages/apps/MotoFMService",
-    "branch": "gingerbread"
+    "branch": "gingerbread",
+    "remote": "local"
   },
   {
-    "repository": "github/Quarx2k/android_external_bootmenu",
+    "repository": "Quarx2k/android_external_bootmenu",
     "target_path": "external/bootmenu",
-    "branch": "jellybean"
+    "branch": "jellybean",
+    "remote": "local"
   },
   {
-    "repository": "github/Quarx2k/jordan-kernel",
+    "repository": "MoKee/android_kernel_motorola_jordan",
     "target_path": "kernel/motorola/jordan",
-    "branch": "jb_clean-2.6.32-9"
+    "branch": "jb-mr1_mkt"
   }
 ]
 
