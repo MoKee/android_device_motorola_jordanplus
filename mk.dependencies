@@ -1,11 +1,5 @@
 [
   {
-    "repository": "CyanogenDefy/android_packages_apps_Usb",
-    "target_path": "packages/apps/Usb",
-    "branch": "ics",
-    "remote": "local"
-  },
-  {
     "repository": "royale1223/HwaSettings",
     "target_path": "packages/apps/HwaSettings",
     "branch": "master",
@@ -24,10 +18,9 @@
     "remote": "local"
   },
   {
-    "repository": "Quarx2k/android_external_bootmenu",
+    "repository": "MoKee/android_external_bootmenu",
     "target_path": "external/bootmenu",
-    "branch": "jellybean",
-    "remote": "local"
+    "branch": "jb-mr1_mkt"
   },
   {
     "repository": "MoKee/android_kernel_motorola_jordan",
