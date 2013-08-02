@@ -1,4 +1,4 @@
-# Copyright (C) 2009 The Android Open Source Project
+# Copyright (C) 2013 The Android Open Source Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -27,8 +27,11 @@
 # Model variant (DEFY_FROYO, DEFY_GINGER, DEFY_PLUS)
 BOARD_DEFY_MODEL := DEFY_PLUS
 TARGET_USE_JORDAN_COMMON := true
-TARGET_CUSTOM_RELEASETOOL := ./device/motorola/jordanplus/releasetools/squisher
+TARGET_KERNEL_CONFIG  := mb526_cm10.1_defconfig
 
 # Use the part that is common between all allwinner
 include device/motorola/jordan-common/BoardConfig.mk
 
+ifdef MK_RELEASE
+WITH_DEXPREOPT := true
+endif

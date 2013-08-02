@@ -1,4 +1,4 @@
-# Copyright (C) 2011 The Android Open Source Project
+# Copyright (C) 2013 The Android Open Source Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -24,8 +24,7 @@
 # Inherit from those products. Most specific first.
 $(call inherit-product, device/motorola/jordanplus/jordan.mk)
 
-
-PRODUCT_NAME := mk_jordanplus
+PRODUCT_NAME := full_jordanplus
 PRODUCT_DEVICE := jordanplus
 PRODUCT_BRAND := Android
 PRODUCT_MODEL := MB526
