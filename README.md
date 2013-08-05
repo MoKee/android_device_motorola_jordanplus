@@ -12,8 +12,8 @@ repo sync
 Download RomManager (DELETED BY OUR BUILD SYSTEM)
 =================================================
 
-mkdir -p vendor/mk/proprietary
-cd vendor/mk && ./get-prebuilts
+mkdir -p vendor/cm/proprietary
+cd vendor/cm && ./get-prebuilts
 
 Build:
 ======

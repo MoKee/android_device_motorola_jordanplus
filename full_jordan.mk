@@ -24,8 +24,7 @@
 # Inherit from those products. Most specific first.
 $(call inherit-product, device/motorola/jordanplus/jordan.mk)
 
-
-PRODUCT_NAME := mk_jordanplus
+PRODUCT_NAME := full_jordanplus
 PRODUCT_DEVICE := jordanplus
 PRODUCT_BRAND := Android
 PRODUCT_MODEL := MB526
