@@ -15,11 +15,6 @@
     "repository": "android_external_bootmenu",
     "target_path": "external/bootmenu",
     "branch": "jb-mr1_mkt"
-  },
-  {
-    "repository": "android_kernel_motorola_jordan",
-    "target_path": "kernel/motorola/jordan",
-    "branch": "jb-mr1_mkt"
   }
 ]
 
