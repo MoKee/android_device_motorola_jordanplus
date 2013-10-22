@@ -16,6 +16,8 @@
 
 TARGET_BOOTANIMATION_NAME := 480
 
+TARGET_EXCLUDE_GOOGLE_IME := true
+
 $(call inherit-product-if-exists, vendor/mk/config/common_full_phone.mk)
 $(call inherit-product-if-exists, vendor/mk/config/gsm.mk)
 $(call inherit-product, device/motorola/jordanplus/full_jordan.mk)
