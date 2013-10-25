@@ -1,12 +1,12 @@
 [
   {
-    "repository": "maniac103/android_packages_apps_MotoFM",
+    "repository": "github/maniac103/android_packages_apps_MotoFM",
     "target_path": "packages/apps/MotoFM",
     "branch": "jellybean",
     "remote": "local"
   },
   {
-    "repository": "maniac103/android_packages_apps_MotoFMService",
+    "repository": "github/maniac103/android_packages_apps_MotoFMService",
     "target_path": "packages/apps/MotoFMService",
     "branch": "gingerbread",
     "remote": "local"
