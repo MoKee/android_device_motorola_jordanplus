@@ -1,8 +1,20 @@
 [
- {
-   "repository": "android_kernel_motorola_jordan",
-   "target_path": "kernel/motorola/jordan",
-   "branch": "jb_mkt"
- }
+  {
+    "repository": "github/maniac103/android_packages_apps_MotoFM",
+    "target_path": "packages/apps/MotoFM",
+    "branch": "jellybean",
+    "remote": "local"
+  },
+  {
+    "repository": "github/maniac103/android_packages_apps_MotoFMService",
+    "target_path": "packages/apps/MotoFMService",
+    "branch": "gingerbread",
+    "remote": "local"
+  },
+  {
+    "repository": "android_external_bootmenu",
+    "target_path": "external/bootmenu",
+    "branch": "jb-mr1_mkt"
+  }
 ]
 
