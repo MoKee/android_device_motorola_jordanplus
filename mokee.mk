@@ -13,16 +13,15 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 #
+$(call inherit-product, device/motorola/jordanplus/full_jordan.mk)
 
 TARGET_BOOTANIMATION_NAME := 480
 
-TARGET_EXCLUDE_GOOGLE_IME := true
+# Inherit some common CM stuff
+$(call inherit-product, vendor/mk/config/gsm.mk)
 
-$(call inherit-product-if-exists, vendor/mk/config/common_full_phone.mk)
-$(call inherit-product-if-exists, vendor/mk/config/gsm.mk)
-$(call inherit-product, device/motorola/jordanplus/full_jordan.mk)
-
-DEVICE_PACKAGE_OVERLAYS += device/motorola/jordanplus/overlay
+# Inherit some common CM stuff.
+$(call inherit-product, vendor/mk/config/common_full_phone.mk)
 
 PRODUCT_NAME := mk_jordanplus
 PRODUCT_BRAND := motorola

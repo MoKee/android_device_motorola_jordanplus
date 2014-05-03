@@ -21,11 +21,11 @@
 # lines, full and toro, hence its name.
 #
 
-# Inherit from those products. Most specific first.
+# Inherit from jordanplus device
 $(call inherit-product, device/motorola/jordanplus/jordan.mk)
 
 PRODUCT_NAME := full_jordanplus
 PRODUCT_DEVICE := jordanplus
-PRODUCT_BRAND := Android
-PRODUCT_MODEL := MB526
+PRODUCT_BRAND := Motorola
+PRODUCT_MODEL := Motorola Defy
 PRODUCT_MANUFACTURER := motorola
