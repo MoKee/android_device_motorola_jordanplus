@@ -28,4 +28,4 @@ PRODUCT_NAME := full_jordanplus
 PRODUCT_DEVICE := jordanplus
 PRODUCT_BRAND := Motorola
 PRODUCT_MODEL := Motorola Defy
-PRODUCT_MANUFACTURER := motorola
+PRODUCT_MANUFACTURER := Motorola

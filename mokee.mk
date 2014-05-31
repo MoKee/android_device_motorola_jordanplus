@@ -15,8 +15,6 @@
 #
 $(call inherit-product, device/motorola/jordanplus/full_jordan.mk)
 
-TARGET_BOOTANIMATION_NAME := 480
-
 # Inherit some common CM stuff
 $(call inherit-product, vendor/mk/config/gsm.mk)
 
